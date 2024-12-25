@@ -68,4 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Cart-exercise
+# Cart-Text
+## 問題解決方案 RCP failed http 400 error
+檢查 http.postBuffer 並增加它
+檢查 `git config --global http.postBuffer`
+增加 `git config --global http.postBuffer 157286400`
+參考資料：[https://gist.github.com/serdarsen/cef300eb64ed1299a73cc39e04e31e62](https://gist.github.com/serdarsen/cef300eb64ed1299a73cc39e04e31e62)
